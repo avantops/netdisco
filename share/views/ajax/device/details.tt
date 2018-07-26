@@ -89,6 +89,8 @@
           <span class="label label-info"><i class="icon-keyboard"></i> Telnet</span></a>
         <a href="https://[% d.ip | uri %]/" target="_blank">
           <span class="label label-info"><i class="icon-external-link"></i> Web</span></a>
+        <a href="http://[% d.ip | uri %]/" target="_blank">
+          <span class="label label-info"><i class="icon-external-link"></i> HTTP</span></a>
       </td>
     </tr>
     <tr>
